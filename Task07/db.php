@@ -72,5 +72,4 @@ if (!$exists) {
         }
     }
 }
-
 return $pdo;

@@ -65,7 +65,6 @@ if (empty($students)) {
     echo "Нет студентов.\n";
     exit;
 }
-
 if (!function_exists('mb_str_pad')) {
     function mb_str_pad($str, $pad_len, $pad_str = ' ', $pad_type = STR_PAD_RIGHT, $encoding = 'UTF-8') {
         $str_len = mb_strlen($str, $encoding);

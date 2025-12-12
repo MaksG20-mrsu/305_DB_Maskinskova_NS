@@ -15,7 +15,6 @@ if ($selectedGroup !== null && !in_array($selectedGroup, $groupNumbers)) {
     http_response_code(400);
     die('Неверный номер группы.');
 }
-
 $sql = "
     SELECT 
         g.number AS group_number,
